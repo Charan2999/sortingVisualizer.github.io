@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: black;
 }
 
 
@@ -15,12 +15,19 @@ h1{
     display: flex;
     gap: 2px ;
     justify-content: space-between;
-    border-color: aqua;
+    border-color:blue;
+    /* border-width: 200px ; */
 
 }
 
 div button {
-    border: 1px solid aqua;
+    border: 1px solid blue;
+    color: blue;
+    background-color:black;
+    border-color: blue;
+}
+
+.btn-left{
     color: aqua;
-    background-color: gray;
+    border: 1px solid aqua;
 }
